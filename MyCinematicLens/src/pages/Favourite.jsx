@@ -1,16 +1,8 @@
-import MovieCard from "../components/MovieCard"
-function Home() {
-    const movies = [
-        { id: 1, title: "John Wick", release_date: "2020" },
-        { id: 2, title: "Terminator", release_date: "1993" },
-        { id: 3, title: "The Matrix", release_date: "1998" }
-    ]
-
-    return <div className="home">
-        <div className="movies-grid">
-            {movies.map(movie => <MovieCard movie={movie} key={movie.id} />)}
-        </div>
+function Favourite() {
+    return <div className = "favorite-empty">
+        <h2>No Favorite Movies Yet</h2>
+        <p>Start adding movies to your favorites and they will appear here</p>
     </div>
 }
 
-export default Home
+export default Favourite

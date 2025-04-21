@@ -2,6 +2,7 @@
     padding: 2rem;
     width: 100%;
     box-sizing: border-box;
+    background-color: #333;
   }
   
   .favorites h2 {
@@ -15,10 +16,11 @@
   .favorites-empty {
     text-align: center;
     padding: 4rem 2rem;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(0, 0, 0, 0.05);
     border-radius: 12px;
     margin: 2rem auto;
     max-width: 600px;
+
   }
   
   .favorites-empty h2 {

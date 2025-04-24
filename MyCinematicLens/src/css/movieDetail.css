@@ -1,0 +1,17 @@
+.movie-description p {
+    color: lightgrey;
+}
+
+.movie-detail {
+    display: flex;
+    flex-direction: row;
+}
+
+.movie-detail img:hover {
+    transform: translateY(-5px);
+}
+  
+.movie-detail img {
+    width: 40%;
+
+}

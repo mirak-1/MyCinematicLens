@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom'
 import './css/App.css'
 import Home from './pages/Home'
 import Favourite from './pages/Favourite'
+import MovieDetail from './pages/Movie'
 import NavBar from './components/NavBar'
 import { MovieProvider } from './contexts/MovieContext'
 
@@ -13,6 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="/favourite" element={<Favourite />}/>
+            <Route path="/movie/:id" element={<MovieDetail />} />
           </Routes>
         </main>
       </MovieProvider>

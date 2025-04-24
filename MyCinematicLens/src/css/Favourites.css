@@ -47,7 +47,11 @@
       transform: translateY(0);
     }
   }
-  
+  .movie-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
   .movies-grid > * {
     animation: fadeIn 0.3s ease-out forwards;
   }
